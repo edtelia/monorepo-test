@@ -1,0 +1,24 @@
+{
+  "name": "my-project-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:web": "pnpm run -parallel -F \"./packages/**\" -F \"./web/**\" dev",
+    "build:web": "pnpm run -parallel -F \"./packages/**\" -F \"./web/**\" build",
+    "dev:": "pnpm "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "19.0.7",
+    "syncpack": "^13.0.0",
+    "turbo": "^2.3.3"
+  },
+  "packageManager": "pnpm@9.15.4",
+  "dependencies": {
+    "react": "19.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@telia-tv/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-types": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "19.0.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.7",
+    "typescript": "5.7.3"
+  }
+}

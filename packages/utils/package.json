@@ -1,0 +1,20 @@
+{
+  "name": "@telia-tv/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "dev": "tsc -w",
+    "clean": "tsc --build --clean",
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "typescript": "5.7.3"
+  }
+}
